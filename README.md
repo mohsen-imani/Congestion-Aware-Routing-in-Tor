@@ -10,6 +10,5 @@ The CAR drops the congested circuits and stops using them. The threshold to dete
 - CUTOFF: this option controls the threshold for pruning the circuits. The default value is 600 mseconds which means circuits their median congestion time is greater than 600 mseconds will be used.
 
 # References:
-- Wacek, C., Tan, H., Bauer, K., and Sherr, M. An empirical evaluation of relay selection in Tor. In NDSS (February 2013).
-- Wang, T., Bauer, K., Forero, C., and Goldberg, I. Congestion-aware path selection for Tor. In FC (February 2012).
-
+- [1]. Wang, T., Bauer, K., Forero, C., and Goldberg, I. Congestion-aware path selection for Tor. In FC (February 2012).
+- [2]. Wacek, C., Tan, H., Bauer, K., and Sherr, M. An empirical evaluation of relay selection in Tor. In NDSS (February 2013).
