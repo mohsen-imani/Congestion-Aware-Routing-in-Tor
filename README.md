@@ -6,8 +6,8 @@ This is an implemention of Congestion-Aware Routing (CAR) in Tor. Wang et al [1]
 - **CAR-tor-0.2.4.20** is the implementation on the Tor 0.2.4.20 
 
 # Setting
-The CAR drops the congestions and stops using them. The threshold to detect the congested circuits can be control through this option in *torrc* file.
-- CUTOFF: this option controls the threshold for pruning the circuits. The default value is 600 mseconds which means circuits their median congestion time is more than 600 mseconds will be used.
+The CAR drops the congested circuits and stops using them. The threshold to detect the congested circuits can be control through the following option in *torrc* file.
+- CUTOFF: this option controls the threshold for pruning the circuits. The default value is 600 mseconds which means circuits their median congestion time is greater than 600 mseconds will be used.
 
 # References:
 - Wacek, C., Tan, H., Bauer, K., and Sherr, M. An empirical evaluation of relay selection in Tor. In NDSS (February 2013).
